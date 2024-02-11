@@ -1,14 +1,22 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./nav.css";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark border border-dark border-3 py-3" >
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark border border-dark border-3 py-3">
       <div className="container ">
         <div>
-        <Link className="navbar-brand" to="/">
-          
-          UET Literary Society</Link>
+          <Link className="navbar-brand" to="/">
+            <img
+              src="src\assets\images\ls_logo-removebg-preview.png"
+              width={"80px"}
+              style={{ borderRadius: "50%" }}
+              alt=""
+              srcset=""
+            />
+            UET Literary Society
+          </Link>
         </div>
         <button
           className="navbar-toggler"
@@ -24,7 +32,7 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">
+              <Link className="nav-link" aria-current="page" to="/">
                 Home
               </Link>
             </li>

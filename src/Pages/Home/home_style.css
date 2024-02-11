@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 .home-banner{
     width: 100%;
 }
@@ -14,12 +19,29 @@
 
 }
 .btn_hov:hover{
-    background-color: black;
-    color: white;
+    background-color: rgb(250, 143, 2);
+    color: black;
     font-weight: 600;
     transition: all 0.3s ease;
 }
 .text_white:hover{
     color: white;
 
+}
+.vision_heading{
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 3.5rem;
+
+}
+.vision_text{
+    font-family: 'Protest Riot', sans-serif;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+.author_name{
+    text-align: end;
+    font-style: italic;
+    font-size: large;
+    color: wheat;
 }

@@ -1,0 +1,9 @@
+.nav-link{
+    border-radius: 30px;
+}
+.nav-link:hover{
+    background-color:rgb(250, 143, 2);
+    transition: all 0.3s ease;
+    font-size: large;
+    
+}
