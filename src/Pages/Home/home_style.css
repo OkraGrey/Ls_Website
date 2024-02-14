@@ -45,3 +45,8 @@
     font-size: large;
     color: wheat;
 }
+.custom_back{
+    /* background: radial-gradient(circle at 10% 20%, rgb(254, 255, 165) 0%, rgb(255, 232, 182) 90%); */
+    /* background: linear-gradient(0deg, rgb(255, 255, 255) 3%, rgb(235, 158, 98) 34.6%, rgb(177, 10, 10) 63.7%, rgb(0, 0, 0) 102%); */
+    background: linear-gradient(to right, #434343 0%, black 100%);
+}

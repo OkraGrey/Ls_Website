@@ -13,15 +13,17 @@ const Home = () => {
         <div className="home-banner row mt-2">
           <div className="col-8  ">
             <img
-              src="src\assets\images\ls_ed.png"
+              src="
+              src/assets/images/ls_ed.png
+              "
               className="img-fluid "
               alt="Background Image"
             />
           </div>
-          <div className="mt-5 rounded rounded-2 bg-dark col-4 d-flex flex-column justify-content-center">
+          <div className="mt-5 rounded rounded-2 custom_back bg-dark col-4 d-flex flex-column justify-content-center">
             <div className="d-flex flex-column justify-content-center w-50 mx-auto mt-4">
               <img
-                src="src\assets\images\uet-lahore-white-logo.png"
+                src="src/assets/images/uet-lahore-white-logo.png"
                 className=""
                 alt=""
                 srcset=""
@@ -87,13 +89,13 @@ const Home = () => {
           <div className="row ">
             <div className="col-6 mb-5">
               <Main_Card
-                img="src\assets\images\Events\Kashmir.jpeg"
+                img="src/assets/images/Events/Kashmir.jpeg"
                 text="Closing of Sada-e-Kashmir 2023"
               />
             </div>
             <div className="col-6 mb-5">
               <Main_Card
-                img="src\assets\images\Events\YoumeIqbal.jpeg"
+                img="src/assets/images/Events/YoumeIqbal.jpeg"
                 text="Jury of Youm-e-Iqbal 2023"
               />
             </div>

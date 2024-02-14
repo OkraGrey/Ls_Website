@@ -1,0 +1,58 @@
+.b_col{
+    border: 3px solid rgb(250, 143, 2);
+    border-radius: 10px;
+}
+.img_spec{
+    max-height: 500px;
+}
+.card-img-top{
+    object-fit:fill;
+    overflow: hidden;
+    height: 500px;
+}
+.register_button{
+    position: relative;
+    width: 100%;
+    font-family: 'Protest Riot', sans-serif;;
+    text-decoration: none;
+    padding: 40px;
+    border-radius: 10%;
+    font-size: medium;
+    font-weight: 600;
+    background-color: darkgray;
+    color: wheat;
+}
+.register_button:hover{
+    background-color: rgb(250, 143, 2);
+    color: black;
+    font-weight: 700;
+}
+
+.register_button_2{
+    position: relative;
+    width: 48%;
+    margin-right: 5px;
+    font-family: 'Protest Riot', sans-serif;;
+    text-decoration: none;
+    padding: 40px;
+    border-radius: 10%;
+    font-size: medium;
+    font-weight: 600;
+    background-color: darkgray;
+    color: wheat;
+}
+.register_button_2:hover{
+    background-color: rgb(250, 143, 2);
+    color: black;
+    font-weight: 700;
+}
+.card h4{
+    padding: 10px;
+    background-color:#FDBF60 ;
+    color: darkred;
+    font-weight: 700;
+}
+.custom_back{
+    background: linear-gradient(to right, #434343 0%, black 100%);
+
+}
