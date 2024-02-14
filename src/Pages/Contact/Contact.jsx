@@ -9,18 +9,7 @@ const Contact = () => {
   return (
     <>
       <Navbar />
-
-      {/* <form
-        id="form"
-        className="text-center"
-        style={{ width: "100%", maxWidth: "300px" }}
-      >
-        <h2>Contact us</h2>
-      </form> */}
-      <ToastContainer />
       <ContactUs />
-      <ToastContainer />
-
       <Footer />
     </>
   );

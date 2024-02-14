@@ -51,7 +51,7 @@ export const ContactUs = () => {
       <div className=" container d-flex flex-column justify-content-center p-lg-5 color_form rounded w-50 ">
         <div className="form_img_container pt-5">
           <img
-            src="src\assets\images\output-onlinepngtools.png"
+            src="/assets/images/output-onlinepngtools.png"
             alt=""
             srcset=""
           />

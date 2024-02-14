@@ -9,7 +9,7 @@ const Navbar = () => {
         <div>
           <Link className="navbar-brand" to="/">
             <img
-              src="src\assets\images\ls_logo-removebg-preview.png"
+              src="/assets/images/ls_logo-removebg-preview.png"
               width={"80px"}
               style={{ borderRadius: "50%" }}
               alt=""

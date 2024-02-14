@@ -12,7 +12,7 @@ const Events = () => {
         <div className="row m-5">
           <div className="col-8 ">
             <img
-              src="src\assets\images\LS_Back.jpg"
+              src="/assets/images/LS_Back.jpg"
               className="img-fluid b_col"
               alt=""
               srcset=""
@@ -22,7 +22,7 @@ const Events = () => {
           <div className=" rounded rounded-2 custom_back col-4 d-flex flex-column justify-content-center">
             <div className="d-flex flex-column justify-content-center w-50 mx-auto my-3">
               <img
-                src="src\assets\images\uet-lahore-white-logo.png"
+                src="/assets/images/uet-lahore-white-logo.png"
                 className=""
                 alt=""
                 srcset=""
@@ -46,7 +46,7 @@ const Events = () => {
           <div className="row">
             <div className="col-6">
               <CardEvent
-                img="src\assets\images\Mehshar-e.png"
+                img="/assets/images/Mehshar-e.png"
                 title="Mehshar-e-Khayal 2024"
                 text="Mehshar-e-Khayal empowers the young and brilliant minds to showcase their critical thinking and put forward their perceptions and views on the given topics which covers multiple domains"
                 buttons="2"
@@ -54,7 +54,7 @@ const Events = () => {
             </div>
             <div className="col-6">
               <CardEvent
-                img="src\assets\images\quiz_u.jpg"
+                img="/assets/images/quiz_u.jpg"
                 title="Quizdom 7.0"
                 text="All Pakistan Quiz Compeition invites brilliant people around the country from all institutes to join us contribute in the othos of let the knowledge shines. Get yourself register now. "
                 buttons="1"
@@ -64,7 +64,7 @@ const Events = () => {
           <div className="row">
             <div className="col-6">
               <CardEvent
-                img="src\assets\images\SadaKashmir.jpeg"
+                img="/assets/images/SadaKashmir.jpeg"
                 title="Sada-e-Kashmir 2024"
                 text="Kasmir is the jugglar vein of Pakistan and none can deny that. To condemn the opression against our brothers and sisters in Kashmir, we invite you to get your self registerd and put forward your contributions towards the cause."
                 link_1="https://docs.google.com/forms/d/e/1FAIpQLSd2gV8cKxh7bV6OlS5PULKwivHjF4wTeHCsH27VLr8ELVZPdQ/viewform"
@@ -74,7 +74,7 @@ const Events = () => {
             </div>
             <div className="col-6 ">
               <CardEvent
-                img="src\assets\images\Mehshar-e.png"
+                img="/assets/images/Mehshar-e.png"
                 title="Mehshar-e-Khayal 2024"
                 text="Mehshar-e-Khayal empowers the young and brilliant minds to showcase their critical thinking and put forward their perceptions and views on the given topics which covers multiple domains"
                 buttons="1"
