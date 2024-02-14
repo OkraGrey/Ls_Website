@@ -14,7 +14,7 @@ const Home = () => {
           <div className="col-8  ">
             <img
               src="
-              src/assets/images/ls_ed.png
+              /assets/images/ls_ed.png
               "
               className="img-fluid "
               alt="Background Image"
@@ -23,7 +23,7 @@ const Home = () => {
           <div className="mt-5 rounded rounded-2 custom_back bg-dark col-4 d-flex flex-column justify-content-center">
             <div className="d-flex flex-column justify-content-center w-50 mx-auto mt-4">
               <img
-                src="src/assets/images/uet-lahore-white-logo.png"
+                src="/assets/images/uet-lahore-white-logo.png"
                 className=""
                 alt=""
                 srcset=""
@@ -74,13 +74,13 @@ const Home = () => {
           <div className="row ">
             <div className="col-6 my-5 ">
               <Main_Card
-                img="src\assets\images\Events\Auditorium.jpeg"
+                img="/assets/images/Events/Auditorium.jpeg"
                 text="Mushaera/23 House Full "
               />
             </div>
             <div className="col-6 my-5">
               <Main_Card
-                img="src\assets\images\Events\Mehshar.jpeg"
+                img="/assets/images/Events/Mehshar.jpeg"
                 text="Glimpse of Mehshar-e-Khayal 2023"
               />
             </div>
@@ -89,13 +89,13 @@ const Home = () => {
           <div className="row ">
             <div className="col-6 mb-5">
               <Main_Card
-                img="src/assets/images/Events/Kashmir.jpeg"
+                img="/assets/images/Events/Kashmir.jpeg"
                 text="Closing of Sada-e-Kashmir 2023"
               />
             </div>
             <div className="col-6 mb-5">
               <Main_Card
-                img="src/assets/images/Events/YoumeIqbal.jpeg"
+                img="/assets/images/Events/YoumeIqbal.jpeg"
                 text="Jury of Youm-e-Iqbal 2023"
               />
             </div>
