@@ -45,16 +45,12 @@ export const ContactUs = () => {
   return (
     <form
       ref={form}
-      onSubmit={send}
+      onSubmit={sendEmail}
       className="bg-light d-flex flex-column justify-content-center "
     >
       <div className=" container d-flex flex-column justify-content-center p-lg-5 color_form rounded w-50 ">
         <div className="form_img_container pt-5">
-          <img
-            src="/assets/images/output-onlinepngtools.png"
-            alt=""
-            srcset=""
-          />
+          <img src="/assets/images/lo2.png" alt="" srcset="" />
           <p className="form-desc">
             UET Literary Society is always there to answer your queries. Incase
             of any problem or issue, drop your query by filling the form below
